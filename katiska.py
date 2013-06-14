@@ -71,10 +71,6 @@ class Screen(Window):
 		return None
 
 	def reconfigure(self):
-		for i, tile in enumerate(self.tiles):
-			x, y = tile.position
-			w, h = tile.size
-
 		for window in self.windows:
 			window.reconfigure()
 
